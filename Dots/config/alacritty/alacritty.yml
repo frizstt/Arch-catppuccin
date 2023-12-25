@@ -1,0 +1,70 @@
+window:
+ 
+  padding:
+    x: 5
+    y: 0
+
+    dynamic_padding: true
+
+scrolling:
+  # Maximum number of lines in the scrollback buffer.
+  # Specifying '0' will disable scrolling.
+  history: 10000
+
+  # Scrolling distance multiplier.
+  multiplier: 3
+
+# Font configuration
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+    style: Regular
+    size: 8
+
+colors:
+    primary:
+        background: "#1E1E2E" # base
+        foreground: "#CDD6F4" # text
+
+    # Cursor colors
+    cursor:
+        text: "#1E1E2E" # base
+        cursor: "#F5E0DC" # rosewater
+    vi_mode_cursor:
+        text: "#1E1E2E" # base
+        cursor: "#B4BEFE" # lavender
+
+    # Normal colors
+    normal:
+        black: "#45475A" # surface1
+        red: "#F38BA8" # red
+        green: "#A6E3A1" # green
+        yellow: "#F9E2AF" # yellow
+        blue: "#89B4FA" # blue
+        magenta: "#F5C2E7" # pink
+        cyan: "#94E2D5" # teal
+        white: "#BAC2DE" # subtext1
+
+    # Bright colors
+    bright:
+        black: "#585B70" # surface2
+        red: "#F38BA8" # red
+        green: "#A6E3A1" # green
+        yellow: "#F9E2AF" # yellow
+        blue: "#89B4FA" # blue
+        magenta: "#F5C2E7" # pink
+        cyan: "#94E2D5" # teal
+        white: "#A6ADC8" # subtext0
+
+
+# Cursor style
+style:
+  shape: Block
+  blinking: Off
+
+key_bindings:
+  - { key: Back, mods: Control, chars: "\u0017" }
+
+#Transparency
+window:
+  opacity: 0.6
