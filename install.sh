@@ -66,4 +66,4 @@ clear
 
 cp -r Wallpapers/ ~/
 
-zsh install_1.sh
+zsh DoNotRunThisManually.sh
