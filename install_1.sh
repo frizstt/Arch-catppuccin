@@ -11,7 +11,8 @@ sleep 10
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+source ~/.zshrc
 mv Dots/zshrc Dots/.zshrc
 mv Dots/.zshrc ~/.zshrc
 source .zshrc
-zsh
+reboot
