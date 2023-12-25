@@ -33,4 +33,3 @@ sleep 1
 echo "Rebooting in 1"
 sleep 1
 reboot
-clear
