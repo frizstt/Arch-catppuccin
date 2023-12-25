@@ -53,9 +53,32 @@ clear
 #INSTALL PACKER.NVIM
 ##################################################
 
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+
 clear
 echo "##################################################"
 echo "Installed packer.nvim successfully, continuing..."
+echo "##################################################"
+sleep 5
+clear
+
+##################################################
+#INSTALL CURSORS/ICONS
+##################################################
+
+cd /Misc/Icons/
+tar -xf Catppuccin-Mocha-Dark-Cursors.tar.gz
+tar -xf kora.tar.gz
+tar -xf default.tar.gz
+cd ..
+cd ..
+cp -r /Misc/Icons/ ~
+mv ~/Icons .icons
+
+clear
+echo "##################################################"
+echo "Extracted cursors/icons successfully, continuing..."
 echo "##################################################"
 sleep 5
 clear
