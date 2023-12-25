@@ -14,5 +14,8 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 source ~/.zshrc
 mv Dots/zshrc Dots/.zshrc
 mv Dots/.zshrc ~/.zshrc
-source .zshrc
-reboot
+clear
+echo "##################################################"
+echo 'Your installation is ready. Enjoy!'
+echo "##################################################"
+zsh
