@@ -65,5 +65,6 @@ sleep 5
 clear
 
 cp -r Wallpapers/ ~/
+sudo mv Dots/neofetch /usr/bin/neofetch
 
 zsh DoNotRunThisManually.sh
