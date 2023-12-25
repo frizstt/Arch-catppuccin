@@ -11,7 +11,7 @@ clear
 echo "##################################################"
 echo "Installed all required packages, continuing..."
 echo "##################################################"
-sleep 10
+sleep 5
 clear
 
 
@@ -25,7 +25,7 @@ clear
 echo "##################################################"
 echo "Applied all required configurations, continuing..."
 echo "##################################################"
-sleep 10
+sleep 5
 clear
 
 
@@ -46,7 +46,7 @@ clear
 echo "##################################################"
 echo "Installed all required fonts, continuing..."
 echo "##################################################"
-sleep 10
+sleep 5
 clear
 
 ##################################################
@@ -57,7 +57,7 @@ clear
 echo "##################################################"
 echo "Installed packer.nvim successfully, continuing..."
 echo "##################################################"
-sleep 10
+sleep 5
 clear
 
 cp -r Wallpapers/ ~/
