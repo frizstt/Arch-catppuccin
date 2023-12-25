@@ -67,12 +67,9 @@ clear
 #INSTALL CURSORS/ICONS
 ##################################################
 
-cd /Misc/Icons/
-tar -xf Catppuccin-Mocha-Dark-Cursors.tar.gz
-tar -xf kora.tar.gz
-tar -xf default.tar.gz
-cd ..
-cd ..
+tar -xf Catppuccin-Mocha-Dark-Cursors.tar.gz -C /Misc/Icons/
+tar -xf kora.tar.gz -C /Misc/Icons/
+tar -xf default.tar.gz -C /Misc/Icons/
 cp -r /Misc/Icons/ ~
 mv ~/Icons .icons
 
