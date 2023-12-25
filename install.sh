@@ -59,4 +59,6 @@ echo "##################################################"
 sleep 10
 clear
 
+cp -r Wallpapers/ ~/
+
 zsh install_1.sh
