@@ -1,6 +1,7 @@
 # Arch-catppuccin
+This is an install script so I can set up my computer how I like it without wasting any time
 
-Manual stuff you gotta do:
+Manual stuff you gotta do for this to be 100% perfect:
 
 Switch Dark Reader to the Catppuccin theme
 
