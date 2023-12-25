@@ -1,0 +1,20 @@
+~:
+    Wallpapers
+    Scripts
+    .zshrc
+
+
+.config:
+    alacritty
+    i3
+    polybar
+    btop
+    neofetch
+    zathura
+    nvim
+    picom
+
+To add:
+    DarkReader catppuccin theme
+    Obsidian catppuccin theme
+    Firefox catppuccin theme
