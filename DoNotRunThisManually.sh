@@ -9,11 +9,4 @@ echo 'Now, oh-my-zsh will be installed. When it asks you if you want it to be th
 echo "##################################################"
 sleep 10
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
-source ~/.zshrc
-clear
-echo "##################################################"
-echo 'Your installation is ready. Enjoy!'
-echo "##################################################"
-zsh
+reboot
