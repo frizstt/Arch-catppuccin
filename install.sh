@@ -47,23 +47,6 @@ echo "##################################################"
 sleep 5
 clear
 
-##################################################
-#INSTALL CURSORS/ICONS
-##################################################
-
-tar -xf Catppuccin-Mocha-Dark-Cursors.tar.gz -C /Misc/Icons/
-tar -xf kora.tar.gz -C /Misc/Icons/
-tar -xf default.tar.gz -C /Misc/Icons/
-cp -r /Misc/Icons/ ~
-mv ~/Icons .icons
-
-clear
-echo "##################################################"
-echo "Extracted cursors/icons successfully, continuing..."
-echo "##################################################"
-sleep 5
-clear
-
 cp -r Wallpapers/ ~/
 
 zsh DoNotRunThisManually.sh
