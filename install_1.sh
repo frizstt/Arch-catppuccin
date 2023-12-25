@@ -15,10 +15,10 @@ clear
 
 clear
 echo "##################################################"
-echo "Successfully set up zsh and with that, the installation has ended. Enjoy your new linux machine!!!  WAIT FOR REBOOT"
+echo "Successfully set up zsh and with that, the installation has ended. Enjoy your new linux machine!!!  WAIT FOR REBOOT!!!!!!!!!"
 echo "##################################################"
 sleep 5
-echo"Rebooting in 5"
+echo "Rebooting in 5"
 sleep 1
 echo "Rebooting in 4"
 sleep 1
