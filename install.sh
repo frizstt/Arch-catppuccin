@@ -1,5 +1,10 @@
 #!/bin/bash
 
+echo "##################################################"
+echo "Welcome. The installation will begin shortly. Be sure to run the post install script once you boot into i3"
+echo "##################################################"
+
+
 ##################################################
 #INSTALL PACKAGES
 ##################################################
