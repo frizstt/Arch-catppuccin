@@ -19,7 +19,7 @@ clear
 #APPLY CONFIGURATIONS
 ##################################################
 cp -r Scripts/ ~/
-cp -r Dots/config/* .config/
+cp -r Dots/config/* ~/.config/
 
 clear
 echo "##################################################"
