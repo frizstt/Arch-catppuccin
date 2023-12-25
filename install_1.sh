@@ -12,7 +12,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 source .zshrc
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
-source .zshrc
+exec .zsh
 mv Dots/zshrc Dots/.zshrc
 mv Dots/.zshrc ~/.zshrc
 source .zshrc
