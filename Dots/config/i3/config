@@ -215,32 +215,6 @@ client.focused_inactive     $base	$base		$text	$surface1
 client.urgent		        $base	$base		$text	$red
 
 
-
-
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-###bar {
-        ###status_command i3blocks -c ~/.config/i3blocks/i3blocks.conf
-
-	#i3bar transparency
-	###i3bar_command i3bar --transparency
-
-	#i3status colors
-	###colors{
-
-
-
-	###background #1e1e2e33
-	###separator $textcolor
-	#		                border 		background		text
-	###focused_workspace		$bgcolor	#45475a 		#89b4fa
-	###inactive_workspace		$ibgcolor	$ibgcolor		$atextcolor
-	###urgent_workspace		$ubgcolor	$ubgcolor		$atextcolor
-
-    ###}	
-###}
-
-
 #Set the proper refresh rate and resolution to the monitor
 exec_always xrandr --output DP-0 --mode 1920x1080 --rate 144
 
@@ -335,3 +309,5 @@ bindsym $mod+Control+4 exec xrandr --output DP-0 --brightness 0.7
 bindsym $mod+Control+3 exec xrandr --output DP-0 --brightness 0.8
 bindsym $mod+Control+2 exec xrandr --output DP-0 --brightness 0.9
 bindsym $mod+Control+1 exec xrandr --output DP-0 --brightness 1
+
+exec fcitx5
