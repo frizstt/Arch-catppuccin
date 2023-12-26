@@ -311,3 +311,4 @@ bindsym $mod+Control+2 exec xrandr --output DP-0 --brightness 0.9
 bindsym $mod+Control+1 exec xrandr --output DP-0 --brightness 1
 
 exec fcitx5
+exec flameshot
