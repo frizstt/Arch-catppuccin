@@ -7,7 +7,7 @@ root.configure(bg="#1e1e2e")
 
 
 def goToSleep():
-    os.system("i3lock && systemctl suspend")
+    os.system("betterlockscreen -l && systemctl suspend")
 
 
 def goToWake():
