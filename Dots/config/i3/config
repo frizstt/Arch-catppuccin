@@ -222,7 +222,7 @@ exec_always xrandr --output DP-0 --mode 1920x1080 --rate 144
 exec_always feh --bg-fill ~/Wallpapers/monterey.jpg
 
 #i3lock shortcut
-bindsym $mod+l exec i3lock -c 1e1e2e -u
+bindsym $mod+l exec betterlockscreen -l --off 120
 
 #Window compositor
 exec_always picom
