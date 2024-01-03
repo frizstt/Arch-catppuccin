@@ -312,3 +312,6 @@ bindsym $mod+Control+1 exec xrandr --output DP-0 --brightness 1
 
 exec fcitx5
 exec flameshot
+
+#Night mode
+bindsym $mod+Shift+n exec xrandr --output DP-0 --brightness 0.5 && redshift -O 3000
