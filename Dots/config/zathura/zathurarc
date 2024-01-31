@@ -36,6 +36,7 @@ set highlight-color		        "#575268"
 set highlight-fg              "#F5C2E7"
 set highlight-active-color	  "#F5C2E7"
 
+set sandbox strict
 set statusbar-h-padding 0
 set statusbar-v-padding 0
 set page-padding 1
